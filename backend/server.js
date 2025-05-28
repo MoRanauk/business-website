@@ -55,3 +55,4 @@ app.get('/api/admin-dashboard', (req, res) => {
 app.listen(PORT, () => {
     console.log(Backend server running on port ${PORT});
 });
+// Note: In a real application, you would also handle errors, logging, and possibly connect to a database.
